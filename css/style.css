@@ -1,3 +1,15 @@
-html{
-    font-family: Bondi;
+body{
+    font-family: "Bondi", sans-serif ;
+    min-height: 100000px !important;
 }
+
+/* Start nav */
+.navbar ul li a.active{
+    color: #33d1cc !important;
+}
+
+.navbar ul li a:hover{
+    color: #33d1cc !important;
+}
+
+/* End nav */
