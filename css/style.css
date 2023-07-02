@@ -1,14 +1,14 @@
-body{
-    font-family: "Bondi", sans-serif ;
+body {
+    font-family: "Bondi", sans-serif;
     min-height: 10000px !important;
 }
 
 /* Start nav */
-.navbar ul li a.active{
+.navbar ul li a.active {
     color: #33d1cc !important;
 }
 
-.navbar ul li a:hover{
+.navbar ul li a:hover {
     color: #33d1cc !important;
 }
 
@@ -17,8 +17,25 @@ body{
 
 /* Start landing */
 .landing {
-    min-height: calc(100vh - 72px) ;
+    min-height: calc(100vh - 72px);
 }
 
 
 /* End landing */
+
+
+/* Start Features */
+
+.intro-section .line-intro {
+    margin: auto;
+    height: 2px;
+    width: 9rem;
+    background-color: #33d1cc;
+}
+
+
+.card-feature .icons-holder{
+    height: 180px;
+}
+
+/* End Features */
