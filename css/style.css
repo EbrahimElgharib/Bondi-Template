@@ -39,3 +39,51 @@ body {
 }
 
 /* End Features */
+
+
+/* Start Work Section */
+
+.work-section{
+    background-color: #eff7fa
+}
+.work-section .main-title::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #33d1cc;
+    margin: auto;
+}
+
+.work-section ul li:hover {
+    color: #dc3545 !important;
+}
+
+.work-section ul li:first-child :hover {
+    background-color: white !important;
+}
+
+.work-section .row .box::before{
+    content: attr(data-work);
+    /* display: block; */
+    position: absolute;
+    width: calc( 100% - 0.5rem );
+    height: calc( 100% - 0.5rem );
+    font-size: 20px;
+    color: white;
+    background-color: #33d1cc9c;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+
+    transform: translateX(calc( -100% - 0.5rem ));
+}
+
+.work-section .row .box:hover::before{
+    transform: translateX(0);
+}
+
+/* End Work Section */
