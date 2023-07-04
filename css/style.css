@@ -46,14 +46,7 @@ body {
 .work-section{
     background-color: #eff7fa
 }
-.work-section .main-title::after{
-    content: '';
-    display: block;
-    width: 100px;
-    height: 2px;
-    background-color: #33d1cc;
-    margin: auto;
-}
+
 
 .work-section ul li:hover {
     color: #dc3545 !important;
@@ -87,3 +80,16 @@ body {
 }
 
 /* End Work Section */
+
+
+
+
+/* duplicated css */
+.main-title::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #33d1cc;
+    margin: auto;
+}
