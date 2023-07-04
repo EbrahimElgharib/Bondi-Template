@@ -1,6 +1,6 @@
 body {
     font-family: "Bondi", sans-serif;
-    min-height: 10000px !important;
+    /* min-height: 10000px !important; */
 }
 
 /* Start nav */
@@ -80,6 +80,13 @@ body {
 }
 
 /* End Work Section */
+
+/* Start Stuff Section */
+.stuff-section .p-info{
+    max-width: 500px;
+}
+
+/* End Stuff Section */
 
 
 
