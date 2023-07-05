@@ -44,7 +44,7 @@ body {
 /* Start Work Section */
 
 .work-section{
-    background-color: #eff7fa
+    background-color: #eff7fa;
 }
 
 
@@ -88,10 +88,20 @@ body {
 
 /* End Stuff Section */
 
-
+/* Start Team Section */
+.team{
+    background-color: #33d1cc;
+}
+/* End Team Section */
 
 
 /* duplicated css */
+
+.work-section,
+.team-section {
+    background-color: #eff7fa;
+}
+
 .main-title::after{
     content: '';
     display: block;
@@ -100,3 +110,4 @@ body {
     background-color: #33d1cc;
     margin: auto;
 }
+
