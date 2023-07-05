@@ -109,6 +109,11 @@ body {
 
 /* End Subscribe Section  */
 
+/* Start Footer */
+footer ul a{
+    font-size: 20px;
+}
+/* End Footer */
 
 
 /* duplicated css */
