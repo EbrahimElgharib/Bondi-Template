@@ -94,9 +94,20 @@ body {
 }
 /* End Team Section */
 
-/* Start Blog Section  */
+/* Start Subscribe Section  */
+.subscribe input[type='email']::-webkit-input-placeholder {
+    color: white !important;
+    font-weight: bold;
 
-/* End Blog Section  */
+}
+.subscribe input[type='email']:focus,
+.subscribe input[type='email']:active,
+.subscribe input[type='email']:hover {
+    outline: none !important;
+}
+    
+
+/* End Subscribe Section  */
 
 
 
