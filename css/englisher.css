@@ -1,0 +1,171 @@
+
+body{
+    /* height: 5000px; */
+
+}
+
+
+
+
+/* Start landing */
+.landing img{
+    /* min-height: calc(100vh - 100px); */
+
+}
+.land-card{
+    position: absolute;
+    top: 130px;
+    left: -900px;
+}
+.btn-course{
+    color: white;
+    background-color: #EC3E3D;
+}
+
+.btn-course:hover{
+    background-color: #EC3E3D;
+    color: white;
+}
+
+.titles{
+    color: #010157;
+    margin-bottom: 20px;
+}
+
+
+.card-text{
+    font-size: 14px;
+    color: #1F1F1F;
+}
+
+.make-span{
+    background-color: #FCE0E0;
+    display: inline-block;
+    position: absolute;
+    top: 34px;
+    left: 16px;
+}
+/* End landing */
+
+
+
+.check-icon{
+    margin-right: 5px;
+}
+
+
+
+header.masthead {
+    position: relative;
+    overflow: hidden;
+    /* padding-top: calc(7rem + 72px); */
+    /* padding-bottom: 7rem; */
+    background: url('../svg/Rectangle\ 15920.svg'), url('../imgs/NoPath.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+  }
+
+
+
+
+  header.masthead .masthead-content {
+    z-index: 1;
+    position: relative;
+    
+    
+  }
+
+
+  .masthead-content div{
+    padding: 120px;
+}
+
+.teacher-info {
+    background-color: white;
+    margin-right: -50px;
+}
+
+
+  
+  @media (min-width: 992px) {
+
+    header.masthead .masthead-content .masthead-heading {
+      font-size: 6rem;
+    }
+    header.masthead .masthead-content .masthead-subheading {
+      font-size: 4rem;
+    }
+
+  }
+
+
+
+
+/* Media query for big screens */
+@media screen and (min-width: 770px) {
+    .img1{
+        display: block;
+    }
+    .img2{
+        display: none;
+    }
+
+    .li-text{
+        margin-right: -4%;
+    }
+    .masthead-content div{
+        width: 50%;
+    }
+
+
+
+ }
+
+/* Media query for small screens */
+@media screen and (max-width: 770px) {
+    .land-card {
+       position: static; /* or any other desired value */
+       /* Additional modifications specific to small screens */
+    }
+    .img1{
+        display: none;
+    }
+    .img2{
+        display: block;
+        width: 100%;
+    }
+    .card{
+        border-style: none;
+    }
+
+    .will-learn .row div{
+        width:96%;
+    }
+
+    .li-text{
+        margin-right: 0;
+    }
+    header.masthead {
+        text-align: center;
+        width: 100% !important;
+    }
+
+ 
+    .teacher-info {
+        margin-right: 0;
+        margin-top: -150px;
+        
+        align-items: center;
+    }
+
+    
+.heading-teacher{
+    text-align: center;
+    padding: 0 15px;
+}  
+
+.heading-teacher h6{
+    margin: 0;
+}
+ }
