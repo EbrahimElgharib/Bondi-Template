@@ -88,7 +88,7 @@ header.masthead {
 
 
 .continued{
-    margin-top: 25rem;
+    margin-top: 25rem !important;
 }
   
   @media (min-width: 992px) {
